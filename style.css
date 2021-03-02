@@ -1,0 +1,214 @@
+html {
+    margin: auto;
+}
+
+* {
+    margin   : 0;
+    padding  : 0;
+    max-width: 1219px;
+   /* min-width: auto;*/
+}
+
+
+.header {
+    height          : 84px;
+    width           : 100%;
+    background-color: #007765;
+    align-items     : center;
+    position        : fixed;
+    top             : 0;
+}
+
+nav {
+    display    : block; 
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 24px;
+    line-height: 28px;
+    color        : #FFFFFF;
+    padding-right: 64px;
+    padding-top  : 29px;
+    padding-bottom  : 26px;
+    float: right;
+}
+
+
+.logo {
+    display     : inline-block;
+    padding-left: 55px;
+    padding-top : 20px;
+    padding-bottom : 18px;
+}
+
+
+.jumbotron {
+    margin-top         : 84px;
+    background         : url(images/image.png);
+    background-size    : cover;
+    background-position: center center;
+}
+
+.jumbotron h1 {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 72px;
+    text-align : center;
+    color      : #FFFFFF;
+    padding    : 2.5em 0;
+}
+
+.the_problem {
+    background-color: #EEEEEE;
+    display         : block;
+    padding-bottom  : 60px;
+}
+
+.the_problem>h1 {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 64px;
+    line-height: 75px;
+    padding    : 48px 0px 16px;
+    text-align : center;
+    color      : #007765;
+}
+
+.the_problem>p {
+    font-family   : Roboto;
+    font-style    : normal;
+    font-weight   : normal;
+    font-size     : 32px;
+    line-height   : 37px;
+    margin-left   : 55px;
+    margin-right  : 54px;
+    color         : #000000;
+    padding-bottom: 1em;
+}
+
+.hero {
+    display            : block;
+    background-image   : url(images/blue.png);
+    background-size    : cover;
+    background-position: center center;
+}
+
+.hero p {
+    font-family: Roboto;
+    font-style : italic;
+    font-weight: 500;
+    font-size  : 48px;
+    line-height: 56px;
+    text-align : center;
+    padding    : 128px 163px;
+    color      : #FFFFFF;
+}
+
+.ppc {
+    background-color: #FFFFFF;
+    display         : block;
+    padding-bottom  : 60px;
+}
+
+.ppclogo {
+    display      : inline;
+    float        : left;
+    padding-left : 55px;
+    padding-right: 48px;
+}
+
+.ppc h1 {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 64px;
+    line-height: 75px;
+    padding    : 48px 54px 16px 55px;
+    text-align : center;
+    color      : #007765;
+}
+
+.ppc p {
+    font-family  : Roboto;
+    font-style   : normal;
+    font-weight  : normal;
+    font-size    : 32px;
+    line-height  : 37px;
+    margin-bottom: 1em;
+    padding-right: 54px;
+    padding-left : 55px;
+    color        : #000000;
+}
+
+.the_team {
+    background    : #EEEEEE;
+    display       : block;
+    padding-bottom: 60px;
+}
+
+.cards {
+    width     : 325px;
+    height    : 283px;
+    text-align: center;
+    float     : left;
+    padding   : 30px;
+}
+
+div.container {
+    display       : inline-block;
+   padding-right: 24px;
+    padding-left : 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.cards>figcaption>h4 {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: bold;
+    font-size  : 24px;
+    line-height: 28px;
+    color      : #007765;
+    text-align : center;
+}
+
+.cards>figcaption>h6 {
+    font-family: Roboto;
+    font-style : italic;
+    font-weight: normal;
+    font-size  : 18px;
+    line-height: 21px;
+    color      : #000000;
+    text-align : center;
+}
+
+.the_team h1 {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 64px;
+    line-height: 75px;
+    padding    : 48px 54px 16px 55px;
+    text-align : center;
+    color      : #007765;
+}
+
+footer {
+    background-color: #333333;
+}
+
+footer p {
+    font-family   : Roboto;
+    font-style    : normal;
+    font-weight   : normal;
+    font-size     : 18px;
+    line-height   : 21px;
+    text-align    : center;
+    color         : #FFFFFF;
+    padding-top   : 50px;
+    padding-bottom: 62px;
+}
