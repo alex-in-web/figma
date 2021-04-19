@@ -3,42 +3,47 @@ html {
 }
 
 * {
-    margin   : 0;
-    padding  : 0;
-    max-width: 1219px;
-   /* min-width: auto;*/
+    margin : 0;
+    padding: 0px;
 }
 
+
+.cont {
+    max-width: 1219px;
+    padding  : 0 55px;
+    margin   : auto;
+    border   : #000000 1px solid;
+}
 
 .header {
     height          : 84px;
     width           : 100%;
-    background-color: #007765;
-    align-items     : center;
     position        : fixed;
     top             : 0;
+    align-items     : center;
+    background-color: #007765;
 }
 
 nav {
-    display    : block; 
-    font-family: Roboto;
-    font-style : normal;
-    font-weight: 500;
-    font-size  : 24px;
-    line-height: 28px;
-    color        : #FFFFFF;
-    padding-right: 64px;
-    padding-top  : 29px;
-    padding-bottom  : 26px;
-    float: right;
+    display       : block;
+    font-family   : Roboto;
+    font-style    : normal;
+    font-weight   : 500;
+    font-size     : 24px;
+    line-height   : 28px;
+    color         : #FFFFFF;
+    padding-right : 64px;
+    padding-top   : 29px;
+    padding-bottom: 26px;
+    float         : right;
 }
 
 
 .logo {
-    display     : inline-block;
-    padding-left: 55px;
-    padding-top : 20px;
-    padding-bottom : 18px;
+    display       : inline-block;
+    padding-left  : 55px;
+    padding-top   : 20px;
+    padding-bottom: 18px;
 }
 
 
@@ -89,21 +94,22 @@ nav {
 }
 
 .hero {
-    display            : block;
+    display            : flex;
+    height             : 483px;
     background-image   : url(images/blue.png);
     background-size    : cover;
     background-position: center center;
+    vertical-align     : middle;
 }
 
 .hero p {
-    font-family: Roboto;
-    font-style : italic;
-    font-weight: 500;
-    font-size  : 48px;
-    line-height: 56px;
-    text-align : center;
-    padding    : 128px 163px;
-    color      : #FFFFFF;
+    font-family  : Roboto;
+    font-style   : italic;
+    font-weight  : 500;
+    font-size    : 48px;
+    line-height  : 56px;
+    text-align   : center;
+    color        : #FFFFFF;
 }
 
 .ppc {
@@ -130,7 +136,7 @@ nav {
     color      : #007765;
 }
 
-.ppc p {
+.ppc>div>p {
     font-family  : Roboto;
     font-style   : normal;
     font-weight  : normal;
@@ -157,13 +163,14 @@ nav {
 }
 
 div.container {
-    display       : inline-block;
-   padding-right: 24px;
-    padding-left : 25px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content:center;
+    display        : inline-block;
+    padding-right  : 24px;
+    padding-left   : 25px;
+    display        : flex;
+    flex-wrap      : wrap;
+    flex-direction : row;
+    justify-content: center;
+    border         : #b61919 1px solid;
 }
 
 .cards>figcaption>h4 {
