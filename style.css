@@ -81,7 +81,7 @@ nav {
     color      : #007765;
 }
 
-.the_problem>p {
+.the_problem>div>p {
     font-family   : Roboto;
     font-style    : normal;
     font-weight   : normal;
